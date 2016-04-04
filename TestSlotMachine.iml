@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="TestSlotMachine">
+    <configurations>
+      <configuration name="TestSlotMachine" pure-as="true" main-class="TestSlotMachine" output-file="TestSlotMachine.swf" output-folder="$MODULE_DIR$/out/production/TestSlotMachine">
+        <dependencies target-player="15.0">
+          <entries>
+            <entry library-id="4445ebf9-bb65-4a85-a692-e282bf065352">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="c36d6ff4-013f-4ca8-bbf9-4318b464355f">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_4_13_air_15 (1)" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_4_13_air_15 (1)" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="4445ebf9-bb65-4a85-a692-e282bf065352" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../libsForProgrammer/as3Libs/PureMVC/standart/PureMVC_AS3_2_0_4.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="c36d6ff4-013f-4ca8-bbf9-4318b464355f" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../lvivTest/SlotMachine.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
